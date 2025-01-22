@@ -50,12 +50,37 @@ nav a {
 }
 .location {
   background-image: url(images/Location\ image.png);
-  height: 512px;
   display: flex;
-  flex-direction: column;
+  align-items: center;
   justify-content: center;
- 
+  gap: 20px;
 }
+.location-style {
+  border-radius: 40px;
+  position: relative;
+  box-shadow: #29728b;
+  color: white;
+}
+
+.location-style h2 {
+  position: absolute;
+  top: 35%;
+  text-align: center;
+}
+
+.location-style h1 {
+  position: absolute;
+  top: 39%;
+  font-size: 24px;
+  text-align: center;
+  width: 100%;
+}
+
+.location-image {
+  border-radius: 20px;
+  height: 370px;
+}
+
 .roadmap {
   background-image: url(images/Roadmap\ image.png);
   height: 1022px;
@@ -71,4 +96,3 @@ nav a {
   flex-direction: column;
   justify-content: center;
 }
-  
