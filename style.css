@@ -48,3 +48,27 @@ nav a {
   align-items: center;
   color: white;
 }
+.location {
+  background-image: url(images/Location\ image.png);
+  height: 512px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 
+}
+.roadmap {
+  background-image: url(images/Roadmap\ image.png);
+  height: 1022px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.foot-image {
+  background-image: url(images/Price&Footer\ image.png);
+  height: 1120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+  
