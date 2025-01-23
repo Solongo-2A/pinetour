@@ -5,7 +5,7 @@
 }
 .container {
   width: 1440px;
-  background-color: aqua;
+  /* background-color: aqua; */
   margin-inline: auto;
 }
 header {
@@ -83,8 +83,54 @@ nav a {
   background-image: url(images/Roadmap\ image.png);
   height: 1022px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  padding-top: 100px;
+}
+.map {
+  /* background-color: red; */
+}
+.pin {
+  position: relative;
+  height: 640px;
+  width: 647px;
+  border-radius: 30px;
+  margin-inline: auto;
+  /* background-color: aqua; */
+}
+.pin1 {
+  width: 34px;
+  height: 34px;
+  top: 200px;
+  left: 350px;
+  position: absolute;
+}
+.pin2 {
+  width: 34px;
+  height: 34px;
+  top: 164px;
+  left: 107px;
+  position: relative;
+}
+
+.pin3 {
+  width: 34px;
+  height: 34px;
+  top: 42px;
+  left: 279px;
+  position: relative;
+}
+.pin4 {
+  width: 34px;
+  height: 34px;
+  top: 181px;
+  left: 492px;
+  position: relative;
+}
+.pin5 {
+  width: 34px;
+  height: 34px;
+  top: 181px;
+  left: 492px;
+  position: relative;
 }
 
 .foot-image {
