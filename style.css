@@ -106,30 +106,23 @@ nav a {
 .pin2 {
   width: 34px;
   height: 34px;
-  top: 164px;
-  left: 107px;
+  top: 350px;
+  left: 550px;
   position: relative;
 }
 
 .pin3 {
   width: 34px;
   height: 34px;
-  top: 42px;
-  left: 279px;
+  top: 350px;
+  left: 150px;
   position: relative;
 }
 .pin4 {
   width: 34px;
   height: 34px;
-  top: 181px;
-  left: 492px;
-  position: relative;
-}
-.pin5 {
-  width: 34px;
-  height: 34px;
-  top: 181px;
-  left: 492px;
+  top: 600px;
+  left: 300px;
   position: relative;
 }
 
@@ -139,4 +132,31 @@ nav a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.package {
+  display: flex;
+  padding: 50px;
+  width: 1200px;
+  height: 527px;
+  top: 20px;
+  left: 20px;
+  border-radius: 40px;
+}
+.h4 {
+  border: 1px solid white;
+  background-color: antiquewhite;
+  width: 384px;
+  height: 527px;
+  gap: 5px;
+  display: flex;
+  padding-top: 100px;
+  align-items: baseline;
+}
+.blur {
+  width: 1400px;
+  height: 575px;
+  left: 1px;
+  color: #d8e4e9;
+  gap: 2px;
 }
